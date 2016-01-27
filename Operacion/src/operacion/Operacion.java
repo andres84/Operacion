@@ -11,18 +11,29 @@ package operacion;
  */
 public class Operacion {
 
-    /**
-     * @param args the command line arguments
-     */
+    
+    String dato;
+    
     public static void main(String[] args) {
         
         int a = 6;
         int b = 6;
         int suma = a + b;
-       
+        
         
         System.out.println("Suma " + suma);
-       
+        
+               
+        
+    }
+    
+    public String getDato(){
+        return dato;
+    }
+    
+    public void setDato(){
+        
+        
         
     }
     
