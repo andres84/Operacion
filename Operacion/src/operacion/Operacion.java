@@ -19,8 +19,10 @@ public class Operacion {
         int a = 6;
         int b = 6;
         int suma = a + b;
+        int promedio = suma/2;
         
         System.out.println("Suma " + suma);
+        System.out.println("Promedio " + promedio);
         
     }
     
