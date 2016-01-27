@@ -16,6 +16,12 @@ public class Operacion {
      */
     public static void main(String[] args) {
         
+        int a = 6;
+        int b = 6;
+        int suma = a + b;
+        
+        System.out.println("Suma " + suma);
+        
     }
     
 }
